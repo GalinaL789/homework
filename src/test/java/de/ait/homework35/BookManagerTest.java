@@ -2,11 +2,6 @@ package de.ait.homework35;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BookManagerTest {
@@ -19,9 +14,11 @@ public class BookManagerTest {
 
     @Test
     public void testaddBook() {
-        Book book = new Book("AA324", "The secret Wife", "linda Kavanagh");
+        Book book = new Book("AA324", "The secret Wife", "Linda Kavanagh");
+        bookmanager.addBook(book);
         assertNotNull(bookmanager.findBookByISBN("AA324"));
     }
+
     @Test
     public void testAddBookWithDuplicateISBN()
     {
@@ -38,6 +35,7 @@ public class BookManagerTest {
             System.out.println("Книга уже есть");
         }
     }
+
     @Test
     public void testFindBookbyISBN()
     {
@@ -45,6 +43,7 @@ public class BookManagerTest {
         bookmanager.addBook(book);
         assertEquals(book, bookmanager.findBookByISBN("AA345"));
     }
+
     @Test
     public void testRemoveBook()
     {
@@ -55,5 +54,9 @@ public class BookManagerTest {
     }
 
 }
+
+
+
+
 
 

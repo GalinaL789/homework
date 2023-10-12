@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="34:Add Book.java and BookTest.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework35/BookManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework35/BookManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="35:Add BookTest.java">
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework35/BookManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework35/BookManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BookTest.testgetIsbn">
+  <component name="RunManager" selected="JUnit.BookManagerTest.testRemoveBook">
     <configuration name="BookManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
@@ -71,6 +69,22 @@
       <option name="PACKAGE_NAME" value="de.ait.homework35" />
       <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookManagerTest" />
       <option name="METHOD_NAME" value="testFindBookbyISBN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagerTest.testRemoveBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework35.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework35" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookManagerTest" />
+      <option name="METHOD_NAME" value="testRemoveBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,29 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessorTest.testGetLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework34" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework34.StringProcessorTest" />
-      <option name="METHOD_NAME" value="testGetLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookManagerTest.testRemoveBook" />
         <item itemvalue="JUnit.BookTest.testgetIsbn" />
         <item itemvalue="JUnit.BookManagerTest" />
         <item itemvalue="JUnit.BookManagerTest.testFindBookbyISBN" />
         <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.StringProcessorTest.testGetLength" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697050785181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="35:Add BookTest.java">
+      <created>1697111369339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697111369339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +185,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="34: Project is created, add pom.xml and Class for test" />
     <MESSAGE value="34:Add Book.java and BookTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="34:Add Book.java and BookTest.java" />
+    <MESSAGE value="35:Add BookTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="35:Add BookTest.java" />
   </component>
 </project>
