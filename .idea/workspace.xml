@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="35:Add BookTest.java">
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework35/BookManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework35/BookManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework36/PhoneBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,80 +45,82 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BookManagerTest.testRemoveBook">
-    <configuration name="BookManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PhoneBookTest.testFindNonexistentContact">
+    <configuration name="PhoneBookTest.TestDeleteExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework35.*" />
+          <option name="PATTERN" value="de.ait.homework36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework35" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookManagerTest.testFindBookbyISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework35.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework35" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookManagerTest" />
-      <option name="METHOD_NAME" value="testFindBookbyISBN" />
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
+      <option name="METHOD_NAME" value="TestDeleteExistingContact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookManagerTest.testRemoveBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.testAddNullContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework35.*" />
+          <option name="PATTERN" value="de.ait.homework36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework35" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookManagerTest" />
-      <option name="METHOD_NAME" value="testRemoveBook" />
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
+      <option name="METHOD_NAME" value="testAddNullContact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.testDeleteNoneExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework35.*" />
+          <option name="PATTERN" value="de.ait.homework36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework35" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
+      <option name="METHOD_NAME" value="testDeleteNoneExistingContact" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.testgetIsbn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.testFindExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework35.*" />
+          <option name="PATTERN" value="de.ait.homework36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework35" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework35.BookTest" />
-      <option name="METHOD_NAME" value="testgetIsbn" />
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
+      <option name="METHOD_NAME" value="testFindExistingContact" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.testFindNonexistentContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
+      <option name="METHOD_NAME" value="testFindNonexistentContact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookManagerTest.testRemoveBook" />
-        <item itemvalue="JUnit.BookTest.testgetIsbn" />
-        <item itemvalue="JUnit.BookManagerTest" />
-        <item itemvalue="JUnit.BookManagerTest.testFindBookbyISBN" />
-        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.PhoneBookTest.testFindNonexistentContact" />
+        <item itemvalue="JUnit.PhoneBookTest.testFindExistingContact" />
+        <item itemvalue="JUnit.PhoneBookTest.testDeleteNoneExistingContact" />
+        <item itemvalue="JUnit.PhoneBookTest.TestDeleteExistingContact" />
+        <item itemvalue="JUnit.PhoneBookTest.testAddNullContact" />
       </list>
     </recent_temporary>
   </component>
