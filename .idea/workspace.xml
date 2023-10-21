@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="35:Add BookTest.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework36/PhoneBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/TestPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/TestPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,47 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PhoneBookTest.testFindNonexistentContact">
-    <configuration name="PhoneBookTest.TestDeleteExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UniqueNameApp">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework38.Hello" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.TestPhone" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueNameApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework38.UniqueNameApp" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.testAddValidContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
@@ -56,71 +96,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.ait.homework36" />
       <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="TestDeleteExistingContact" />
+      <option name="METHOD_NAME" value="testAddValidContact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.testAddNullContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.addFriendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.codereview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="testAddNullContact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookTest.testDeleteNoneExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="testDeleteNoneExistingContact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookTest.testFindExistingContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="testFindExistingContact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookTest.testFindNonexistentContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="testFindNonexistentContact" />
+      <option name="PACKAGE_NAME" value="de.ait.codereview" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.codereview.UserTest" />
+      <option name="METHOD_NAME" value="addFriendTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneBookTest.testFindNonexistentContact" />
-        <item itemvalue="JUnit.PhoneBookTest.testFindExistingContact" />
-        <item itemvalue="JUnit.PhoneBookTest.testDeleteNoneExistingContact" />
-        <item itemvalue="JUnit.PhoneBookTest.TestDeleteExistingContact" />
-        <item itemvalue="JUnit.PhoneBookTest.testAddNullContact" />
+        <item itemvalue="Application.UniqueNameApp" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.TestPhone" />
+        <item itemvalue="JUnit.PhoneBookTest.testAddValidContact" />
+        <item itemvalue="JUnit.UserTest.addFriendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,5 +184,16 @@
     <MESSAGE value="34:Add Book.java and BookTest.java" />
     <MESSAGE value="35:Add BookTest.java" />
     <option name="LAST_COMMIT_MESSAGE" value="35:Add BookTest.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/de/ait/codereview/UserTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

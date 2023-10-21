@@ -41,7 +41,7 @@ public class InventoryManagement {
                 }
             }
         } else {
-            System.out.println("тулефонов в списке нет. Удаление невозможно");
+            System.out.println("Телефонов в списке нет. Удаление невозможно");
         }
 
     }
