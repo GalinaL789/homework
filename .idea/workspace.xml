@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="35:Add BookTest.java">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="38:Add UniqueNameApp.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/StudentDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework39/StudentDatabasetest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/TestPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/TestPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNameApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GAL/homeworks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/REP/ait_java_lessons&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UniqueNameApp">
+  <component name="RunManager" selected="JUnit.StudentDatabasetest.testToString">
+    <configuration name="HashSetResizeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.andrei.HashSetResizeExample" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.andrei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ait.homework38.Hello" />
       <module name="homeworks" />
@@ -60,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.TestPhone" />
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.TestStudent" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,33 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.testAddValidContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDatabasetest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.PhoneBookTest" />
-      <option name="METHOD_NAME" value="testAddValidContact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.addFriendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.codereview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.codereview" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.codereview.UserTest" />
-      <option name="METHOD_NAME" value="addFriendTest(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabasetest" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDatabasetest.testToString" />
+        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.HashSetResizeExample" />
         <item itemvalue="Application.UniqueNameApp" />
         <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.TestPhone" />
-        <item itemvalue="JUnit.PhoneBookTest.testAddValidContact" />
-        <item itemvalue="JUnit.UserTest.addFriendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697111369339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="38:Add UniqueNameApp.java">
+      <created>1697884286394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697884286394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +188,8 @@
     <MESSAGE value="34: Project is created, add pom.xml and Class for test" />
     <MESSAGE value="34:Add Book.java and BookTest.java" />
     <MESSAGE value="35:Add BookTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="35:Add BookTest.java" />
+    <MESSAGE value="38:Add UniqueNameApp.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="38:Add UniqueNameApp.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
