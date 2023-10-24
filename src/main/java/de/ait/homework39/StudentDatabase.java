@@ -71,7 +71,7 @@ public class StudentDatabase {
         List<Student> studentsInAgeRange = new ArrayList<>();
         for (Student student : spisokStudents) {
             int age = student.getAge();
-            if (age >= minAge && age <= maxAge&&!spisokStudents.contains(student)) {
+            if (age >= minAge && age <= maxAge) {
                 studentsInAgeRange.add(student);
             }
         }
