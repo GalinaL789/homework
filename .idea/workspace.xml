@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="38:Add UniqueNameApp.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/StudentDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework39/StudentDatabasetest.java" afterDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNameApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/REP/ait_java_lessons&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/GAL/homeworks",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.StudentDatabasetest.testToString">
-    <configuration name="HashSetResizeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.andrei.HashSetResizeExample" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GAL\homeworks\src\main\java\de\ait\elementy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.Bar" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.andrei.*" />
+          <option name="PATTERN" value="de.ait.homework40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +62,11 @@
       </method>
     </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework38.Hello" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.moitest.Hello" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework38.*" />
+          <option name="PATTERN" value="de.ait.moitest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.TestStudent" />
+    <configuration name="Spiski" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.Spiski" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNameApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework38.UniqueNameApp" />
+    <configuration name="SpiskiHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHash" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework38.*" />
+          <option name="PATTERN" value="de.ait.homework41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,29 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDatabasetest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiskiHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHashMap" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabasetest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDatabasetest.testToString" />
-        <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.HashSetResizeExample" />
-        <item itemvalue="Application.UniqueNameApp" />
         <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.SpiskiHash" />
+        <item itemvalue="Application.SpiskiHashMap" />
+        <item itemvalue="Application.Spiski" />
+        <item itemvalue="Application.Bar" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697884286394</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="39:Add *.java files and test java.file">
+      <created>1698136898710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698136898710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="39:Add change StudentDatabase.java">
+      <created>1698154131596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698154131596</updated>
+    </task>
+    <task id="LOCAL-00008" summary="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java">
+      <created>1698233584282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698233584282</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +207,10 @@
     <MESSAGE value="34:Add Book.java and BookTest.java" />
     <MESSAGE value="35:Add BookTest.java" />
     <MESSAGE value="38:Add UniqueNameApp.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="38:Add UniqueNameApp.java" />
+    <MESSAGE value="39:Add *.java files and test java.file" />
+    <MESSAGE value="39:Add change StudentDatabase.java" />
+    <MESSAGE value="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
