@@ -27,7 +27,7 @@ public class SportsMan {
                 "name='" + name + '\'' +
                 ", sport='" + sport + '\'' +
                 ", age=" + age +
-                ", record=" + record +
+                ", record1=" + record +
                 '}';
     }
 
