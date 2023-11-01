@@ -27,7 +27,7 @@ public class testUser {
         Post post2 = socialNetwork.createPost(user2, "Good morning, everyone!");
 
         // Вывод информации о пользователях, группах и постах
-        System.out.println("Users: " + socialNetwork.getUsers().values());
+        System.out.println("Users1: " + socialNetwork.getUsers().values());
         System.out.println("Groups: " + socialNetwork.getGroups().values());
         System.out.println("Posts: " + socialNetwork.getPosts());
     }
