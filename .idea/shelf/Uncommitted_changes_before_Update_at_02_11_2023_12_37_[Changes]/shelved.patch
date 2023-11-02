@@ -1,0 +1,279 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java">
++    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="added users1">
++      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework43/BankAccount.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework42/SportsMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework42/SportsMan.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/moitest/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/moitest/Hello.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,33 +25,39 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2WTKGmhLyPuGNRSJCKAAPJiMuD9" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/GAL/homeworks&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "last_opened_file_path": "C:/GAL/homeworks",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.2"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\GAL\homeworks\src\main\java\de\ait\elementy" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.SportsMan">
++  <component name="RunManager" selected="Application.TestBank">
+     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="de.ait.moitest.Hello" />
+       <module name="homeworks" />
+@@ -62,8 +71,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Spiski" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.Spiski" />
++    <configuration name="SpiskiHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHash" />
+       <module name="homeworks" />
+       <extension name="coverage">
+         <pattern>
+@@ -75,8 +84,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="SpiskiHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHash" />
++    <configuration name="SpiskiHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHashMap" />
+       <module name="homeworks" />
+       <extension name="coverage">
+         <pattern>
+@@ -88,12 +97,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="SpiskiHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.SpiskiHashMap" />
++    <configuration name="TestBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.TestBank" />
+       <module name="homeworks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="de.ait.homework41.*" />
++          <option name="PATTERN" value="de.ait.homework43.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -101,12 +110,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="SportsMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="de.ait.homework42.SportsMan" />
++    <configuration name="testUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="de.ait.controlwork2910.testUser" />
+       <module name="homeworks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="de.ait.homework42.*" />
++          <option name="PATTERN" value="de.ait.controlwork2910.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -116,11 +125,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.SportsMan" />
++        <item itemvalue="Application.TestBank" />
++        <item itemvalue="Application.testUser" />
+         <item itemvalue="Application.Hello" />
+         <item itemvalue="Application.SpiskiHash" />
+         <item itemvalue="Application.SpiskiHashMap" />
+-        <item itemvalue="Application.Spiski" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -189,7 +198,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1698233584282</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="added users1">
++      <created>1698870595520</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1698870595520</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -204,6 +220,7 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="34: Project is created, add pom.xml and Class for test" />
+     <MESSAGE value="34:Add Book.java and BookTest.java" />
+     <MESSAGE value="35:Add BookTest.java" />
+@@ -211,7 +228,8 @@
+     <MESSAGE value="39:Add *.java files and test java.file" />
+     <MESSAGE value="39:Add change StudentDatabase.java" />
+     <MESSAGE value="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java" />
+-    <option name="LAST_COMMIT_MESSAGE" value="40:Add Bar.java,BarTest.java, Drink.java and DrinkTest.java" />
++    <MESSAGE value="added users1" />
++    <option name="LAST_COMMIT_MESSAGE" value="added users1" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/main/java/de/ait/homework43/BankAccount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/de/ait/homework43/BankAccount.java b/src/main/java/de/ait/homework43/BankAccount.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/de/ait/homework43/BankAccount.java	
+@@ -0,0 +1,65 @@
++package de.ait.homework43;
++
++import org.slf4j.Logger;
++import org.slf4j.LoggerFactory;
++
++public class BankAccount {
++    private static final Logger LOGGER = LoggerFactory.getLogger(BankAccount.class);
++    private String owner; //владелец аккаунта
++    private double balance; //текущий баланс
++
++    public BankAccount(String owner, double balance) {
++        this.owner = owner;
++        this.balance = balance;
++    }
++
++    public String getOwner() {
++        return owner;
++    }
++
++    public double getBalance() {
++        return balance;
++    }
++
++    public void setBalance(double balance) {
++        this.balance = balance;
++    }
++
++    /*
++    Добавьте метод deposit(double amount):
++
++    Увеличьте balance на значение amount.
++    Логируйте операцию на уровне INFO, указывая владельца аккаунта и сумму пополнения.
++     */
++    public boolean deposit(double amount) {
++        if (balance > 0) {
++            balance += amount;
++            LOGGER.info("Пополнение баланса у владельца {}, на {}. Всего на счету {}.", owner, amount, balance);
++            return true;
++        } else {
++            LOGGER.error("Ошибка пополнения баланса.");
++            return false;
++        }
++    }
++
++    /*
++    Добавьте метод withdraw(double amount):
++    Проверьте, достаточно ли средств на аккаунте. Если не достаточно, залогируйте это как ERROR, указывая владельца аккаунта и требуемую сумму.
++    Если средств достаточно, уменьшите balance на amount и логируйте операцию на уровне INFO.
++    */
++    public boolean withdraw(double amount) {
++        if (balance >= amount) {
++            balance -= amount;
++            LOGGER.info("Снятие средств с аккаунта для {} на сумму: {}", owner, amount);
++            return true;
++        } else {
++            LOGGER.error("Ошибка: Недостаточно средств на аккаунте {} для снятия суммы: {}", owner, amount);
++            return false;
++        }
++    }
++
++    public double checkBalance() {
++        LOGGER.info("Запрос баланса для аккаунта {}", owner);
++        return balance;
++    }
++}
+\ No newline at end of file
+Index: src/main/java/de/ait/homework43/TestBank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/de/ait/homework43/TestBank.java b/src/main/java/de/ait/homework43/TestBank.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/de/ait/homework43/TestBank.java	
+@@ -0,0 +1,16 @@
++package de.ait.homework43;
++
++public class TestBank {
++    public static void main(String[] args) {
++        // Создание экземпляров BankAccount
++        BankAccount account1 = new BankAccount("User1", 1000.0);
++        BankAccount account2 = new BankAccount("User2", 100.0);
++
++        // Проведение операций
++        account1.deposit(200.0);
++        account2.withdraw(300.0);
++        account1.checkBalance();
++        account2.checkBalance();
++
++    }
++}
