@@ -4,38 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="controlwork 29.10">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20ee26caac359dcdd6089486608a4842849867cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464657522a537e7b215d16668c5b474d93047b58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca21289f6f05dedcd60afad777f62437bbc910a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62255de41934579c0e48ef887d553eb5bdec9d6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5c1d08fa10491846398a987aaceb825f2761dfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2221116d07c402837c000472b38e24c0dd262de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3701c22dc17b1d4c2e0a0eb08412dc9b142dc91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/20ee26caac359dcdd6089486608a4842849867cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/464657522a537e7b215d16668c5b474d93047b58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/c/5ca21289f6f05dedcd60afad777f62437bbc910a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/62255de41934579c0e48ef887d553eb5bdec9d6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d5c1d08fa10491846398a987aaceb825f2761dfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f2221116d07c402837c000472b38e24c0dd262de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f3701c22dc17b1d4c2e0a0eb08412dc9b142dc91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework43/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework43/BantAccountStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework43/BantAccountTestTest.java" afterDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="added users1">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/SocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/testUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework43/TestBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/SocialNetwork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/controlwork2910/testUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/moitest/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/moitest/Hello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +37,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WTKGmhLyPuGNRSJCKAAPJiMuD9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,7 +59,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "E:/CHUR/src/main/java/de/ait/controlwork2910",
+    "last_opened_file_path": "C:/GAL/homeworks/src/main/java/de/ait",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -78,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GAL\homeworks\src\main\java\de\ait" />
       <recent name="E:\CHUR\src\main\java\de\ait\controlwork2910" />
       <recent name="C:\GAL\homeworks\src\main\java\de\ait\elementy" />
     </key>
@@ -88,22 +78,9 @@
       <recent name="de.ait.homework43" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BantAccountStart">
+  <component name="RunManager" selected="Application.testUser">
     <configuration name="BankAccountStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BankAccountStart" />
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework43.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BankAccountTest" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
@@ -121,6 +98,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.ait.homework43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.controlwork2910.testUser" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.controlwork2910.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testUser" />
         <item itemvalue="Application.BantAccountStart" />
         <item itemvalue="JUnit.BantAccountTestTest.withdraw" />
         <item itemvalue="JUnit.BantAccountTestTest.deposit" />
         <item itemvalue="Application.BankAccountStart" />
-        <item itemvalue="Application.BankAccountTest" />
       </list>
     </recent_temporary>
   </component>
