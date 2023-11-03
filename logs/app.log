@@ -3,3 +3,4 @@
 2023-11-01 22:01:35.771 [main] ERROR de.ait.homework43.BankAccount - Ошибка: Недостаточно средств на аккаунте User2 для снятия суммы: 300.0
 2023-11-01 22:01:35.771 [main] INFO  de.ait.homework43.BankAccount - Запрос баланса для аккаунта User1
 2023-11-01 22:01:35.772 [main] INFO  de.ait.homework43.BankAccount - Запрос баланса для аккаунта User2
+2023-11-03 15:36:57.479 [main] INFO  de.ait.moitest.Hello - просто тест
