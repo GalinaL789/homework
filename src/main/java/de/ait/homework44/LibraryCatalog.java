@@ -13,18 +13,28 @@ public class LibraryCatalog {
     // все читатели
 
     // Добавление книги
-    public void addBook(Book book)
-    {
-        LOGGER.info("Добавлена книга" +book.getTitle());
-        books.add(book);
+    public void addBook(Book book) {
+        if (book != null) {
+            books.add(book);
+            LOGGER.info("Книга добавлена в каталог: {}", book.getTitle());
+        } else {
+            LOGGER.error("Попытка добавить нулевую книгу в каталог.");
+        }
     }
     // Удаление книги по ID
-    public void removeBook(Book book) {
-        if(books.remove(book)){
-            LOGGER.info("Удалена книга" + book.getTitle());
+    public void removeBook(String title) {
+        Book bookToRemove = null;
+        for (Book book : books) {
+            if (book.getTitle().equals(title)) {
+                bookToRemove = book;
+                break;
+            }
         }
-        else {
-            LOGGER.error("Книга {} не найдена",book.getTitle());
+        if (bookToRemove != null) {
+            books.remove(bookToRemove);
+            LOGGER.info("Книга удалена из каталога: {}", title);
+        } else {
+            LOGGER.info("Книга с названием {} не найдена в каталоге.", title);
         }
     }
 
