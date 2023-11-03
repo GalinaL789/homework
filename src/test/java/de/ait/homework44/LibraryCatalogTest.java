@@ -16,14 +16,14 @@ public class LibraryCatalogTest {
 
     @Test
     public void testAddBook() {
-        Book book = new Book("Title 1", "Author 1");
+        Book book = new Book("Дама с собачкой", "Чехов");
         libraryCatalog.addBook(book);
         assertEquals(1, libraryCatalog.getBooks().size());
     }
 
     @Test
     public void testRemoveBook() {
-        Book book = new Book("Title 2", "Author 2");
+        Book book = new Book("Приключения незнайки", "Носов");
         libraryCatalog.addBook(book);
         libraryCatalog.removeBook(book);
         assertEquals(0, libraryCatalog.getBooks().size());
