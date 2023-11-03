@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="add package controlwork 2910">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="abra">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +65,9 @@
       <recent name="de.ait.homework43" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testUser">
-    <configuration name="BankAccountStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BankAccountStart" />
+  <component name="RunManager" selected="Application.LibraryApp">
+    <configuration name="BantAccountStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BantAccountStart" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BantAccountStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BantAccountStart" />
+    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework44.LibraryApp" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework43.*" />
+          <option name="PATTERN" value="de.ait.homework44.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.testUser" />
         <item itemvalue="Application.BantAccountStart" />
         <item itemvalue="JUnit.BantAccountTestTest.withdraw" />
         <item itemvalue="JUnit.BantAccountTestTest.deposit" />
-        <item itemvalue="Application.BankAccountStart" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,28 @@
       <option name="project" value="LOCAL" />
       <updated>1698925681782</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add log v gitignore">
+      <created>1699043192845</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699043192846</updated>
+    </task>
+    <task id="LOCAL-00013" summary="deleted three unused files">
+      <created>1699043245203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699043245203</updated>
+    </task>
+    <task id="LOCAL-00014" summary="abra">
+      <created>1699043299791</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699043299791</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +279,10 @@
     <MESSAGE value="small change in SportsMan,java" />
     <MESSAGE value="controlwork 29.10" />
     <MESSAGE value="add package controlwork 2910" />
-    <option name="LAST_COMMIT_MESSAGE" value="add package controlwork 2910" />
+    <MESSAGE value="add log v gitignore" />
+    <MESSAGE value="deleted three unused files" />
+    <MESSAGE value="abra" />
+    <option name="LAST_COMMIT_MESSAGE" value="abra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
