@@ -1,8 +1,9 @@
 package de.ait.homework45;
-
 import java.util.Scanner;
-
+import java.util.Arrays;
 public class Retrieve {
+    private static String[] books = {"Apple", "Pear", "Plum", "Orange", "Grape"};
+
     // Создайте массив строк с различными значениями (минимум 5 элементов).
     //Запросите у пользователя индекс элемента, который нужно извлечь из массива.
     // Напишите метод для безопасного извлечения элемента из массива по индексу.
@@ -13,13 +14,6 @@ public class Retrieve {
     // индекс, который выходит за пределы массива
     public static void main(String[] args) {
 
-        String[] books = new String[5];
-        books[0] = "Apple";
-        books[1] = "Pear";
-        books[2] = "Plum";
-        books[3] = "Orange";
-        books[4] = "Grape";
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input index of array");
         String number = scanner.next();
@@ -27,7 +21,10 @@ public class Retrieve {
         while (!safeMethod(number, books)){
             System.out.println("Please, try once more");
             number = scanner.next();
-        };
+        }
+    }
+    public String[] getBooks() {
+        return books;
     }
 
     private static boolean safeMethod(String number, String[] books) {

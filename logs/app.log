@@ -1,6 +1,2 @@
-2023-11-01 21:03:35.723 [main] INFO  de.ait.moitest.Hello - просто тест
-2023-11-01 22:01:35.765 [main] INFO  de.ait.homework43.BankAccount - Пополнение баланса у владельца User1, на 200.0. Всего на счету 1200.0.
-2023-11-01 22:01:35.771 [main] ERROR de.ait.homework43.BankAccount - Ошибка: Недостаточно средств на аккаунте User2 для снятия суммы: 300.0
-2023-11-01 22:01:35.771 [main] INFO  de.ait.homework43.BankAccount - Запрос баланса для аккаунта User1
-2023-11-01 22:01:35.772 [main] INFO  de.ait.homework43.BankAccount - Запрос баланса для аккаунта User2
-2023-11-03 15:36:57.479 [main] INFO  de.ait.moitest.Hello - просто тест
+2023-11-05 19:42:39.110 [main] INFO  de.ait.lombok.Student - Student was created
+2023-11-05 19:42:39.169 [main] INFO  de.ait.lombok.StudentLombok - Student Anna-Maria

@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="abra">
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="рщьуцщкл 45: add Retrieve.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework47/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/StudentLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/TestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework45/Retrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework45/Retrieve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,10 +57,11 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GAL/homeworks/src/main/java/de/ait&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/REP/ait_java_lessons&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,14 +76,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="de.ait.homework43" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ait.lombok" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryApp">
-    <configuration name="BantAccountStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BantAccountStart" />
+  <component name="RunManager" selected="Application.CurrencyConverter">
+    <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework47.CurrencyConverter" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework43.*" />
+          <option name="PATTERN" value="de.ait.homework47.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.controlwork2910.testUser" />
+    <configuration name="Retrieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework45.Retrieve" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.controlwork2910.*" />
+          <option name="PATTERN" value="de.ait.homework45.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,45 +120,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BantAccountTestTest.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.lombok.TestStudent" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework43.*" />
+          <option name="PATTERN" value="de.ait.lombok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework43" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BantAccountTestTest" />
-      <option name="METHOD_NAME" value="deposit" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BantAccountTestTest.withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in homeworks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework43.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework43" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework43.BantAccountTestTest" />
-      <option name="METHOD_NAME" value="withdraw" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CurrencyConverter" />
+        <item itemvalue="JUnit.All in homeworks" />
+        <item itemvalue="Application.Retrieve" />
+        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.LibraryApp" />
-        <item itemvalue="Application.testUser" />
-        <item itemvalue="Application.BantAccountStart" />
-        <item itemvalue="JUnit.BantAccountTestTest.withdraw" />
-        <item itemvalue="JUnit.BantAccountTestTest.deposit" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699043299791</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="рщьуцщкл 45: add Retrieve.java">
+      <created>1699133077705</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699133077705</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +293,8 @@
     <MESSAGE value="add log v gitignore" />
     <MESSAGE value="deleted three unused files" />
     <MESSAGE value="abra" />
-    <option name="LAST_COMMIT_MESSAGE" value="abra" />
+    <MESSAGE value="рщьуцщкл 45: add Retrieve.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="рщьуцщкл 45: add Retrieve.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,5 +306,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
