@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="рщьуцщкл 45: add Retrieve.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework47/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/StudentLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/lombok/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2023_21_26__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2023_12_37__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework47: add CurrancyConvert.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Mainrun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework45/Retrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework45/Retrieve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +72,11 @@
       <recent name="de.ait.homework43" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ait.homework48" />
       <recent name="de.ait.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyConverter">
+  <component name="RunManager" selected="Application.Mainrun">
     <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ait.homework47.CurrencyConverter" />
       <module name="homeworks" />
@@ -94,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework44.LibraryApp" />
+    <configuration name="Mainrun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework48.Mainrun" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework44.*" />
+          <option name="PATTERN" value="de.ait.homework48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mainrun" />
         <item itemvalue="Application.CurrencyConverter" />
         <item itemvalue="JUnit.All in homeworks" />
         <item itemvalue="Application.Retrieve" />
         <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.LibraryApp" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699133077705</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="homework47: add CurrancyConvert.java">
+      <created>1699652567326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699652567326</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +297,8 @@
     <MESSAGE value="deleted three unused files" />
     <MESSAGE value="abra" />
     <MESSAGE value="рщьуцщкл 45: add Retrieve.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="рщьуцщкл 45: add Retrieve.java" />
+    <MESSAGE value="homework47: add CurrancyConvert.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework47: add CurrancyConvert.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
