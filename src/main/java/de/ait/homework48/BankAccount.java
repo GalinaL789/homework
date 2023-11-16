@@ -20,31 +20,26 @@ public class BankAccount {
         this.ownerName = ownerName;
         this.balance = balance;
     }
-   //
+    //
 
-  //  withdraw(double amount): уменьшает баланс. Если сумма снятия больше баланса,
+    //  withdraw(double amount): уменьшает баланс. Если сумма снятия больше баланса,
     //  выбрасывает InsufficientFundsException.
-  //  getBalance(): возвращает текущий баланс.
-  public double deposit(double amount)
-  {
-      balance=balance +amount;
-      return balance;
-  }
-    public void withdrawal(double amount)
-    {
-        try {
-            if (amount > balance) {
-                throw new InsufficientFundsException("Денег не хватает");
-            } else {
-                balance = balance - amount;
-            }
-        }
-        catch(InsufficientFundsException e)
-        {
-            System.out.println("Пополните сначала счет");
-            LOGGER.info("Ваш баланс {} ",balance);
-        }
+    //  getBalance(): возвращает текущий баланс.
+    public double deposit(double amount) {
+        balance = balance + amount;
+        LOGGER.info("Ваш баланс {} евро", balance);
+        return balance;
+    }
 
+    public void withdrawal(double amount) throws InsufficientFundsException
+    {
+        if (amount > balance) {
+            LOGGER.error("На счету не хватает средств");
+            throw new InsufficientFundsException("Денег не хватает");
+        } else {
+            balance = balance - amount;
+            LOGGER.info("Ваш баланс {} ", balance);
+        }
     }
 
     public void setAccountNumber(String accountNumber) {
@@ -71,3 +66,4 @@ public class BankAccount {
         return balance;
     }
 }
+

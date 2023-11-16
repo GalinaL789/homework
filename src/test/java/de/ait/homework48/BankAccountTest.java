@@ -24,11 +24,12 @@ public class BankAccountTest {
         assertEquals(400.0, account.getBalance());
     }
     @Test
-    public void testWithdrawFailure(){
+    public void testWithdrawFailure()
+    {
         System.out.println(account.getBalance());
         InsufficientFundsException exception = assertThrows(InsufficientFundsException.class,
                 ()->account.withdrawal(2000.00));
-        assertEquals("Пополните сначала счет", exception.getMessage());
+        assertEquals("Денег не хватает", exception.getMessage());
     }
 
 /*   @Test
@@ -37,3 +38,4 @@ public class BankAccountTest {
         account.withdraw(-200.0);
     }*/
 }
+

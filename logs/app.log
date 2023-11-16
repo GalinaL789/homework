@@ -1,1 +1,4 @@
-2023-11-12 17:42:27.751 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 1000.0 
+2023-11-16 10:21:55.850 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 500.0 
+2023-11-16 10:32:27.477 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 400.0 
+2023-11-16 10:32:27.516 [main] ERROR de.ait.homework48.BankAccount - На счету не хватает средств
+2023-11-16 10:32:27.521 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 1000.0 евро

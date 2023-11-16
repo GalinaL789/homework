@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 48: added 6 files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework48/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/AuthentificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/AuthenticationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Mainrun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Mainrun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework44/BookTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework44/LibraryCatalogTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework48/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework48/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.testNegativeWithdrawal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountTest.testWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.ait.homework48" />
       <option name="MAIN_CLASS_NAME" value="de.ait.homework48.BankAccountTest" />
-      <option name="METHOD_NAME" value="testNegativeWithdrawal" />
+      <option name="METHOD_NAME" value="testWithdraw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BankAccountTest" />
-        <item itemvalue="JUnit.AuthentificationServiceTest" />
         <item itemvalue="JUnit.BankAccountTest.testWithdrawFailure" />
+        <item itemvalue="JUnit.BankAccountTest.testWithdraw" />
+        <item itemvalue="JUnit.AuthentificationServiceTest" />
         <item itemvalue="JUnit.BankAccountTest.testWithdrawalInsufficientFunds" />
-        <item itemvalue="JUnit.BankAccountTest.testNegativeWithdrawal" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699814533399</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="homework 48: added 6 files">
+      <created>1699971200951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699971200951</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
