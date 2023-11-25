@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 48: added 6 files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/Authentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework48/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework44/BookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework44/LibraryCatalogTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework48/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework48/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,20 @@
       <recent name="de.ait.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTest">
+  <component name="RunManager" selected="Application.AirportReader">
+    <configuration name="AirportReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework51.AirportReader" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework51.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthentificationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
@@ -139,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.testWithdrawalInsufficientFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework48.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework48" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework48.BankAccountTest" />
-      <option name="METHOD_NAME" value="testWithdrawalInsufficientFunds" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AirportReader" />
         <item itemvalue="JUnit.BankAccountTest" />
         <item itemvalue="JUnit.BankAccountTest.testWithdrawFailure" />
         <item itemvalue="JUnit.BankAccountTest.testWithdraw" />
         <item itemvalue="JUnit.AuthentificationServiceTest" />
-        <item itemvalue="JUnit.BankAccountTest.testWithdrawalInsufficientFunds" />
       </list>
     </recent_temporary>
   </component>
