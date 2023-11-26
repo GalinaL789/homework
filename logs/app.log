@@ -1,4 +1,4 @@
-2023-11-16 10:21:55.850 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 500.0 
-2023-11-16 10:32:27.477 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 400.0 
-2023-11-16 10:32:27.516 [main] ERROR de.ait.homework48.BankAccount - На счету не хватает средств
-2023-11-16 10:32:27.521 [main] INFO  de.ait.homework48.BankAccount - Ваш баланс 1000.0 евро
+2023-11-25 18:53:53.456 [main] INFO  de.ait.homework51.AirportReader - Файл не был найденE:\CHUR1\homework\src\main\java\de\ait\homework51\airports.txt (Das System kann den angegebenen Pfad nicht finden)
+2023-11-25 19:47:36.308 [main] INFO  d.a.c.EmployeeOutputStream - Данные сотрудника(ов) успешно сохранены. id: 1876
+2023-11-25 19:49:26.193 [main] WARN  d.a.c.EmployeeInputStream - Объект не подходит под описание, ID: 1876, Name: Batman
+2023-11-25 19:49:26.202 [main] INFO  d.a.c.EmployeeInputStream - Объект успешно найден, ID: 2000, Name: Robin
