@@ -3,8 +3,12 @@ package de.ait.homework52;
 import java.io.*;
 import java.util.ArrayList;
 import java.io.FileReader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class ReadAnimals {
+    private static final Logger LOGGER = LoggerFactory.getLogger(ReadAnimals.class);
     public static void main(String[] args) throws IOException {
         //  FileWriter fileWriter = new FileWriter("Animals.txt");
         ArrayList<Animal> allAnimals = new ArrayList<>();
@@ -38,6 +42,7 @@ public class ReadAnimals {
                 System.out.println(line);
             }
         } catch (IOException exception) {
+            LOGGER.info("Файл не найден"+exception.getMessage());
             System.out.println(exception.getMessage());
         }
         // bfReader.close();
