@@ -1,0 +1,2 @@
+Animal{name='Тигр', species='млекопитающее', age=2}
+Animal{name='Утка', species='водоплавающая', age=1}
