@@ -15,7 +15,7 @@ public class Array {
                 }
             }
             // You need to call; the average method on the class, not an instance of the class
-            Array.average(array);
+            average(array);
             System.out.println(Array.maximum(array));
             vyvod(array);
         }

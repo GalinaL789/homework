@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework55/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/CinemaHall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/CinemaManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/ScheduleConflictException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/SoldOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/FilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/ForEachExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/SquareList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework55/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework55/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +83,13 @@
       <recent name="de.ait.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array">
-    <configuration name="AnimalInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework52.AnimalInputStream" />
+  <component name="RunManager" selected="Application.CinemaManagementSystem">
+    <configuration name="CinemaManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.classwork1012.CinemaManagementSystem" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework52.*" />
+          <option name="PATTERN" value="de.ait.classwork1012.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework55.Array" />
+    <configuration name="ForEachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.ForEachExample" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework55.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventSchedulerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework54.EventSchedulerExample" />
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework54.*" />
+          <option name="PATTERN" value="de.ait.homework56.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework53.Main" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.Main" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework53.*" />
+          <option name="PATTERN" value="de.ait.homework56.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeDAte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.classwork312.TimeDAte" />
+    <configuration name="SquareList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.SquareList" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.classwork312.*" />
+          <option name="PATTERN" value="de.ait.homework56.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.StreamExample" />
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework56.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.EventSchedulerExample" />
-        <item itemvalue="Application.TimeDAte" />
+        <item itemvalue="Application.CinemaManagementSystem" />
+        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.ForEachExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AnimalInputStream" />
+        <item itemvalue="Application.SquareList" />
       </list>
     </recent_temporary>
   </component>
