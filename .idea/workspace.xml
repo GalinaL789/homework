@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/CinemaHall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/CinemaManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/ScheduleConflictException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/classwork1012/SoldOutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/FilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/ForEachExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/SquareList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework56/StreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework55/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework55/Array.java" afterDir="false" />
-    </list>
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
