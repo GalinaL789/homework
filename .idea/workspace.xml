@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java" />
+    <list default="true" id="da5db2ca-d80e-4852-8076-a7cf5391772e" name="Changes" comment="homework 56: *.java files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/Aufgabe3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/Aufgabe4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/Student1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/Student3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/StudentFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework57/StudentSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +24,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -70,13 +80,13 @@
       <recent name="de.ait.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CinemaManagementSystem">
-    <configuration name="CinemaManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.classwork1012.CinemaManagementSystem" />
+  <component name="RunManager" selected="Application.Aufgabe5">
+    <configuration name="Aufgabe3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework57.Aufgabe3" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.classwork1012.*" />
+          <option name="PATTERN" value="de.ait.homework57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.ForEachExample" />
+    <configuration name="Aufgabe4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework57.Aufgabe4" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework56.*" />
+          <option name="PATTERN" value="de.ait.homework57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.Main" />
+    <configuration name="Aufgabe5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework57.Aufgabe5" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework56.*" />
+          <option name="PATTERN" value="de.ait.homework57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.SquareList" />
+    <configuration name="StudentFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework57.StudentFilter" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework56.*" />
+          <option name="PATTERN" value="de.ait.homework57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework56.StreamExample" />
+    <configuration name="StudentSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework57.StudentSort" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework56.*" />
+          <option name="PATTERN" value="de.ait.homework57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CinemaManagementSystem" />
-        <item itemvalue="Application.StreamExample" />
-        <item itemvalue="Application.ForEachExample" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SquareList" />
+        <item itemvalue="Application.Aufgabe5" />
+        <item itemvalue="Application.Aufgabe4" />
+        <item itemvalue="Application.Aufgabe3" />
+        <item itemvalue="Application.StudentSort" />
+        <item itemvalue="Application.StudentFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701784833990</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="homework 56: *.java files">
+      <created>1702497314275</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702497314276</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +361,8 @@
     <MESSAGE value="homework 52: two files Animal.java and ReadAnimals.java" />
     <MESSAGE value="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedukerExample.java" />
     <MESSAGE value="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 54: 3 files:Event.java, EventScheduler.java &amp;EventSchedulerExample.java" />
+    <MESSAGE value="homework 56: *.java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 56: *.java files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
