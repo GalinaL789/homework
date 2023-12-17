@@ -4,9 +4,9 @@ public class Student1 {
     private String name;
     private double averageGrade;
 
-    public Student1(String name, double averageScore) {
+    public Student1(String name, double averageGrade) {
         this.name = name;
-        this.averageGrade = averageScore;
+        this.averageGrade = averageGrade;
     }
 
     public String getName() {

@@ -13,7 +13,8 @@ public class StudentFilter {
         double threshold = 4.0;
 
 // Используем лямбда-выражение для фильтрации списка студентов
-        List<Student1> highPerformingStudents = filterStudents(students, s -> s.getAverageGrade() > threshold);
+        List<Student1> highPerformingStudents = students.stream().filter(s ->s.getAverageGrade() > threshold ).toList();
+        System.out.println(highPerformingStudents);
 
 // Выводим результат
         System.out.println("Студенты сo средним баллом выше " + threshold + ":");
